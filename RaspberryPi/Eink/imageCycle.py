@@ -75,7 +75,7 @@ def restart_program():
     displayTasks()
 
 def choose_random_loading_image():
-    images=os.listdir("bmp/")
+    images=os.listdir("/home/pi/Eink-Pi/RaspberryPi/Eink/bmp/")
     loading_image=random.randint(0,len(images)-1)
     return images[loading_image]
 
