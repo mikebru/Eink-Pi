@@ -85,7 +85,7 @@ def displayTasks():
 
     # For simplicity, the arguments are explicit numerical coordinates
     image = Image.new('1', (EPD_WIDTH, EPD_HEIGHT), 1)    # 1: clear the frame
-    image = Image.open('bmp/'+choose_random_loading_image())
+    image = Image.open('/home/pi/Eink-Pi/RaspberryPi/Eink/bmp/' + choose_random_loading_image())
     epd.display_frame(epd.get_frame_buffer(image))
 
 
