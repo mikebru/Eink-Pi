@@ -56,8 +56,7 @@ todolist_items=0;
 
 def main():
 
-        git pull https://github.com/mikebru/Eink-Pi
-        
+
         displayTasks()
         wait=60;
         refresh_time=1000
