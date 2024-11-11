@@ -15,4 +15,7 @@ Place images in BMP Folder
 
 # Run Code on Startup
 
+Clone this repo onto Raspberry Pi
+
 Run the [imageCycle.py](http://ImageCycle.py) file on start
+/RaspberryPi/Eink/imageCycle.py
